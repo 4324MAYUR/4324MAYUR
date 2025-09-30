@@ -1,0 +1,98 @@
+Flutter crash report.
+Please report a bug at https://github.com/flutter/flutter/issues.
+
+## command
+
+flutter --no-color run --machine --track-widget-creation --device-id=emulator-5554 --start-paused --dart-define=flutter.inspector.structuredErrors=true --devtools-server-address=http://127.0.0.1:9101 lib/main.dart
+
+## exception
+
+_TypeError: type 'Null' is not a subtype of type 'String' in type cast
+
+```
+#0      Plugin._getDefaultPackageForPlatform (package:flutter_tools/src/plugins.dart:374:71)
+#1      new Plugin._fromMultiPlatformYaml (package:flutter_tools/src/plugins.dart:181:38)
+#2      new Plugin.fromYaml (package:flutter_tools/src/plugins.dart:80:21)
+#3      _pluginFromPackage (package:flutter_tools/src/flutter_plugins.dart:77:17)
+<asynchronous suspension>
+#4      findPlugins (package:flutter_tools/src/flutter_plugins.dart:113:28)
+<asynchronous suspension>
+#5      generateMainDartWithPluginRegistrant (package:flutter_tools/src/flutter_plugins.dart:1726:32)
+<asynchronous suspension>
+#6      DartPluginRegistrantTarget.build (package:flutter_tools/src/build_system/targets/dart_plugin_registrant.dart:45:5)
+<asynchronous suspension>
+#7      _BuildInstance._invokeInternal (package:flutter_tools/src/build_system/build_system.dart:873:9)
+<asynchronous suspension>
+#8      Future.wait.<anonymous closure> (dart:async/future.dart:525:21)
+<asynchronous suspension>
+#9      _BuildInstance.invokeTarget (package:flutter_tools/src/build_system/build_system.dart:811:32)
+<asynchronous suspension>
+#10     FlutterBuildSystem.buildIncremental (package:flutter_tools/src/build_system/build_system.dart:709:16)
+<asynchronous suspension>
+#11     ResidentRunner.runSourceGenerators (package:flutter_tools/src/resident_runner.dart:1176:18)
+<asynchronous suspension>
+#12     HotRunner.run (package:flutter_tools/src/run_hot.dart:398:7)
+<asynchronous suspension>
+#13     AppDomain.launch.<anonymous closure> (package:flutter_tools/src/commands/daemon.dart:819:9)
+<asynchronous suspension>
+#14     Future.any.onValue (dart:async/future.dart:616:5)
+<asynchronous suspension>
+```
+
+## flutter doctor
+
+```
+[✓] Flutter (Channel stable, 3.32.0, on macOS 13.4 22F66 darwin-x64, locale en-IN) [204ms]
+    • Flutter version 3.32.0 on channel stable at /Volumes/SDK/flutter
+    • Upstream repository https://github.com/flutter/flutter.git
+    • Framework revision be698c48a6 (4 months ago), 2025-05-19 12:59:14 -0700
+    • Engine revision 1881800949
+    • Dart version 3.8.0
+    • DevTools version 2.45.1
+
+[✓] Android toolchain - develop for Android devices (Android SDK version 36.0.0) [1,704ms]
+    • Android SDK at /Users/mac/Library/Android/sdk
+    • Platform android-36, build-tools 36.0.0
+    • ANDROID_HOME = /Users/mac/Library/Android/sdk
+    • Java binary at: /Library/Java/JavaVirtualMachines/jdk-17.jdk/Contents/Home/bin/java
+      This JDK is specified in your Flutter configuration.
+      To change the current JDK, run: `flutter config --jdk-dir="path/to/jdk"`.
+    • Java version Java(TM) SE Runtime Environment (build 17.0.9+11-LTS-201)
+    • All Android licenses accepted.
+
+[!] Xcode - develop for iOS and macOS (Xcode 14.3.1) [1,891ms]
+    • Xcode at /Applications/Xcode.app/Contents/Developer
+    • Build 14E300c
+    ! Flutter recommends a minimum Xcode version of 15.
+      Download the latest version or update via the Mac App Store.
+    ! CocoaPods 1.15.2 out of date (1.16.2 is recommended).
+        CocoaPods is a package manager for iOS or macOS platform code.
+        Without CocoaPods, plugins will not work on iOS or macOS.
+        For more info, see https://flutter.dev/to/platform-plugins
+      To update CocoaPods, see https://guides.cocoapods.org/using/getting-started.html#updating-cocoapods
+
+[✓] Chrome - develop for the web [9ms]
+    • Chrome at /Applications/Google Chrome.app/Contents/MacOS/Google Chrome
+
+[✓] Android Studio (version 2024.2) [8ms]
+    • Android Studio at /Applications/Android Studio.app/Contents
+    • Flutter plugin can be installed from:
+      🔨 https://plugins.jetbrains.com/plugin/9212-flutter
+    • Dart plugin can be installed from:
+      🔨 https://plugins.jetbrains.com/plugin/6351-dart
+    • Java version OpenJDK Runtime Environment (build 21.0.3+-79915915-b509.11)
+
+[✓] VS Code (version 1.104.1) [6ms]
+    • VS Code at /Applications/Visual Studio Code.app/Contents
+    • Flutter extension version 3.118.0
+
+[✓] Connected device (3 available) [5.9s]
+    • sdk gphone64 x86 64 (mobile) • emulator-5554 • android-x64    • Android 15 (API 35) (emulator)
+    • macOS (desktop)              • macos         • darwin-x64     • macOS 13.4 22F66 darwin-x64
+    • Chrome (web)                 • chrome        • web-javascript • Google Chrome 140.0.7339.214
+
+[✓] Network resources [1,010ms]
+    • All expected network resources are available.
+
+! Doctor found issues in 1 category.
+```

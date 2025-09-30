@@ -1,0 +1,88 @@
+{
+  "project_info": {
+    "project_number": "593588249754",
+    "firebase_url": "https://herdman-49ba9.firebaseio.com",
+    "project_id": "herdman-49ba9",
+    "storage_bucket": "herdman-49ba9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:593588249754:android:f0c400ef10b72b6f42eb23",
+        "android_client_info": {
+          "package_name": "com.herdman.herdman"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "593588249754-26h323srkis3idm3go9v3hpbukkd10ra.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.herdman.herdman",
+            "certificate_hash": "1977200209782cd92ff5c72efaef4c84ca5c69ef"
+          }
+        },
+        {
+          "client_id": "593588249754-606fhdj1junjjaido7ps40fe4t0lkoiu.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.herdman.herdman",
+            "certificate_hash": "542144993659b6df33c00a2ae212c1c0750cb8c5"
+          }
+        },
+        {
+          "client_id": "593588249754-d655b30rd222uje2ec7f0e8hsgpeikeb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.herdman.herdman",
+            "certificate_hash": "82754e8034e201480788f4dfc4fe5936a83d41e5"
+          }
+        },
+        {
+          "client_id": "593588249754-ioq3nbph044621tf1ocj6p41f8khhkab.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.herdman.herdman",
+            "certificate_hash": "0ca53ad34e207f04f61e605cb8b53f330cef8afc"
+          }
+        },
+        {
+          "client_id": "593588249754-nfus5hji3d4l1ff69c4lbf4ie12fe8hc.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.herdman.herdman",
+            "certificate_hash": "3cba571e156106f0103d8c45822ccaa3805c5b76"
+          }
+        },
+        {
+          "client_id": "593588249754-qj13i4smm83kk0k7fjsmj5j3pe7bccvg.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.herdman.herdman",
+            "certificate_hash": "e2012e1acfb6390757cc51541c06c8ef92877421"
+          }
+        },
+        {
+          "client_id": "593588249754-atsg2fq4addrvlue4op8qp1mlc76b39h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDrSQ54si8jcg2KSN54zePIGuHmnB85IxE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "593588249754-atsg2fq4addrvlue4op8qp1mlc76b39h.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

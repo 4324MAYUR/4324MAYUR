@@ -1,32 +1,16 @@
-<h1 align="center">Hi, I'm Mayur Toliya 👋</h1>
-<p align="center">
-Flutter & PHP Developer • Clean UI Lover • Open to Freelance/Collab
-</p>
+# herdmannew
 
+A new Flutter project.
 
----
+## Getting Started
 
+This project is a starting point for a Flutter application.
 
-### 🚀 About Me
-- 🌱 Learning: <Advanced Flutter, PHP & MySQL, Firebase>
-- 📍 Location: Surat, India
+A few resources to get you started if this is your first Flutter project:
 
+- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
+- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
 
-### 🛠 Tech Stack
-- **Mobile:** Flutter, Dart, Firebase
-- **Backend:** PHP, MySQL, REST APIs
-- **Tools:** Git, VS Code, Postman, Figma
-- **Other:** SQLite, HTML/CSS, (basics)
-
-
-### 📫 Reach Me
-- Email: <m.r.toliya8182@email.com>
-- LinkedIn: <https://www.linkedin.com/in/mayur-toliya-5b15492a6/>
-
-
-### 🧩 Fun Facts
-- I love designing stepper UIs & clean form flows.
-- I keep my commit messages tidy and meaningful.
-
-### 🤝 Open to Collaborate
-If you have an idea around Flutter UI kits, PHP APIs, or Firebase chat apps—ping me!
+For help getting started with Flutter development, view the
+[online documentation](https://docs.flutter.dev/), which offers tutorials,
+samples, guidance on mobile development, and a full API reference.
